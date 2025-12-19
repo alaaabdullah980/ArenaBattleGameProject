@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 public class Main extends Application{
 
     @Override
-    public void start(Stage stage) {
+    public void start( Stage stage) {
 
         SelectionScreen selection = new SelectionScreen((p1, p2) -> {
 
